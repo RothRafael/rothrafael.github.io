@@ -1,49 +1,42 @@
-# Welcome to My Portfolio!
+# Portfólio – Rafael Roth
 
-This is my personal portfolio site, built with **GitHub Pages**. Here, you'll find my latest projects, skills, and ways to get in touch. I'm a passionate developer, always eager to take on new challenges and explore new technologies!
+Bem-vindo ao meu portfólio de desenvolvimento de jogos. Aqui você encontra meus projetos, protótipos, mecânicas e experimentos em Unity/Godot/Unreal (ajuste conforme suas engines).
 
-## 🌐 Live Site
+---
 
-Check out the live portfolio here: [yourusername.github.io](https://yourusername.github.io)
+## Projetos
 
-## 🛠 Projects
+### 1. Sistema de Movimento 2D
+![Movimento 2D](files/images/movimento.gif)
 
-Here are some of the projects I've worked on. You can find detailed descriptions and source code by exploring each repository:
+**Tecnologias:** Unity, C#, Animator  
+**Descrição:** Mecânica de movimentação com física simples, animação e transição de estados.  
+[Assista ao vídeo completo](https://youtu.be/XXXXXXXXX)
 
-### 1. **Project Name**
-   - **Description**: A brief description of what the project is about, what technologies were used, and the challenges faced.
-   - **Tech Stack**: HTML, CSS, JavaScript, etc.
-   - **[Live Demo](https://link-to-project-demo.com)** | **[Source Code](https://github.com/yourusername/project-repo)**
+---
 
-### 2. **Project Name**
-   - **Description**: Another great project with key features and technologies highlighted.
-   - **Tech Stack**: Python, Django, etc.
-   - **[Live Demo](https://link-to-project-demo.com)** | **[Source Code](https://github.com/yourusername/project-repo)**
+### 2. Tiro / Dash / Mecânica Experimental
+![Demo](files/images/dash.gif)
 
-### 3. **Project Name**
-   - **Description**: Overview of the project, what you learned, and the value it adds.
-   - **Tech Stack**: React, Node.js, etc.
-   - **[Live Demo](https://link-to-project-demo.com)** | **[Source Code](https://github.com/yourusername/project-repo)**
+**Tecnologias:** Godot, GDScript  
+**Descrição:** Protótipo rápido desenvolvido para estudar responsividade e "Game Feel".  
+[Assista ao vídeo](https://youtu.be/YYYYYYYY)
 
-## 📖 Skills
+---
 
-Here are some of the technologies and tools I frequently work with:
+## Sobre mim
+Desenvolvedor em formação, focado em:
+- Prototipação rápida  
+- Gameplay Programming  
+- Design de mecânicas  
+- Uso de Git/GitHub  
+- Unity / Godot / Unreal (ajustar conforme sua stack)
 
-- **Languages**: JavaScript, Python, Java, C++
-- **Web Development**: HTML, CSS, React, Node.js
-- **Database**: MySQL, MongoDB
-- **Tools**: Git, Docker, AWS
+Atualmente busco estágio em **Desenvolvimento de Jogos**.
 
-## 📫 Contact
+---
 
-I'm always open to new opportunities! Feel free to reach out via:
-
-- **Email**: youremail@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [GitHub Profile](https://github.com/yourusername)
-
-<p align="center">
-  <img src="files/images/fotoTeste.png" alt="Logo do projeto" width="200">
-</p>
-
-Created with ❤️ by [Your Name](https://github.com/yourusername)
+## Contato
+- GitHub: https://github.com/RothRafael  
+- LinkedIn: seu link  
+- E-mail: seu email
