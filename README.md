@@ -1,42 +1,84 @@
-# Portfólio – Rafael Roth
+Portfolio – Rafael Roth
 
-Bem-vindo ao meu portfólio de desenvolvimento de jogos. Aqui você encontra meus projetos, protótipos, mecânicas e experimentos em Unity/Godot/Unreal (ajuste conforme suas engines).
+Welcome to my game development portfolio. Here you’ll find projects and experiments focused on First Person Controller, CSV → ScriptableObjects pipelines, sound design, and physics systems.
 
----
+Projects
+1. First Person Controller (Unity)
 
-## Projetos
+Technologies: Unity, C#, Input System
+Description: Complete first-person controller featuring:
 
-### 1. Sistema de Movimento 2D
-![Movimento 2D](files/images/movimento.gif)
+Smooth physics-based movement
 
-**Tecnologias:** Unity, C#, Animator  
-**Descrição:** Mecânica de movimentação com física simples, animação e transição de estados.  
-[Assista ao vídeo completo](https://youtu.be/XXXXXXXXX)
+Jump buffering & coyote time
 
----
+Headbob and customizable controls
 
-### 2. Tiro / Dash / Mecânica Experimental
-![Demo](files/images/dash.gif)
+Smoothed camera rotation with clamped angles
+Watch full video
 
-**Tecnologias:** Godot, GDScript  
-**Descrição:** Protótipo rápido desenvolvido para estudar responsividade e "Game Feel".  
-[Assista ao vídeo](https://youtu.be/YYYYYYYY)
+2. CSV → ScriptableObjects Pipeline
 
----
+Technologies: Unity, C#, Editor Tools
+Description: Automated Unity Editor tool that:
 
-## Sobre mim
-Desenvolvedor em formação, focado em:
-- Prototipação rápida  
-- Gameplay Programming  
-- Design de mecânicas  
-- Uso de Git/GitHub  
-- Unity / Godot / Unreal (ajustar conforme sua stack)
+Reads CSV files
 
-Atualmente busco estágio em **Desenvolvimento de Jogos**.
+Converts rows into ScriptableObjects
 
----
+Generates organized databases for items, characters or configs
 
-## Contato
-- GitHub: https://github.com/RothRafael  
-- LinkedIn: seu link  
-- E-mail: seu email
+Speeds up balancing and gameplay iteration
+Watch demo
+
+3. Interactive Sound Design
+
+Technologies: Unity, C#, AudioMixer
+Description: Audio system focused on game feel and immersion:
+
+Dynamic sound layering
+
+Footstep variations based on surface type
+
+Pitch/volume randomization
+
+Low-pass filters for depth and environmental effects
+Listen to demo
+
+4. Physics & Interaction Tests
+
+Technologies: Unity, C#, Rigidbody/Collider
+Description: A set of physics experiments exploring:
+
+Forces, torque and advanced collisions
+
+Breakable/destructible objects
+
+Player interactions (push/pull)
+
+Stability, friction and material behavior
+Watch video
+
+About Me
+
+I’m a game developer in training, focused on:
+
+Gameplay Programming
+
+Internal tools (Editor Tools)
+
+Physics & interaction systems
+
+Sound design for games
+
+Unity as my main stack
+
+I’m currently looking for an internship in Game Development.
+
+Contact
+
+GitHub: https://github.com/RothRafael
+
+LinkedIn: your link
+
+Email: your email
