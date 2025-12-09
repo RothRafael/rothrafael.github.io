@@ -5,7 +5,6 @@ Here I showcase focused experiments and systems I’ve developed in Unity, mainl
 
 - **First Person Controller**
 - **CSV → ScriptableObjects Pipelines**
-- **Sound Design**
 - **Physics & Interactions**
 
 ---
@@ -40,31 +39,14 @@ An automated workflow that:
 
 ---
 
-## 🔊 Interactive Sound Design
-
-![Sound](files/images/sound.gif)
-
-**Tech:** Unity, C#, AudioMixer  
-**Systems included:**
-- Dynamic layered audio  
-- Footstep variations based on surface  
-- Pitch/volume randomization  
-- Environmental low-pass filtering  
-
-[▶ Listen](https://youtu.be/ZZZZZZZZ)
-
----
-
 ## 🧪 Physics & Interaction Tests
 
 ![Physics](files/images/physics.gif)
 
 **Tech:** Unity, C#, Rigidbody/Collider  
 Experiments exploring:
-- Forces & torque  
 - Breakable objects  
 - Push/pull interactions  
-- Stability, friction, material behavior  
 
 [▶ Watch](https://youtu.be/WWWWWWWW)
 
@@ -85,7 +67,6 @@ Currently seeking a **Game Development internship**.
 ## 📬 Contact
 
 - **GitHub:** https://github.com/RothRafael  
-- **LinkedIn:** your link  
-- **Email:** your email  
+- **Email:** rafaeltroth@gmail.com 
 
 ---
