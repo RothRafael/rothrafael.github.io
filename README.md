@@ -11,7 +11,7 @@ Here I showcase focused experiments and systems I’ve developed in Unity, mainl
 
 ## 🚶 First Person Controller (Unity)
 
-![FPC](files/images/fpc.gif)
+![FPC](files/images/FPS.gif)
 
 **Tech:** Unity, C#, Input System  
 **Features:**
@@ -41,7 +41,7 @@ An automated workflow that:
 
 ## 🧪 Physics & Interaction Tests
 
-![Physics](files/images/physics.gif)
+![Physics](files/images/interaction.gif)
 
 **Tech:** Unity, C#, Rigidbody/Collider  
 Experiments exploring:
