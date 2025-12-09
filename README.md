@@ -20,7 +20,7 @@ Here I showcase focused experiments and systems I’ve developed in Unity, mainl
 - Headbob system  
 - Smoothed and clamped camera rotation  
 
-[▶ Watch video](https://youtu.be/XXXXXXXXX)
+[▶ Watch video](https://youtu.be/91tZ-68vI_M?t=5)
 
 ---
 
@@ -35,7 +35,7 @@ An automated workflow that:
 - Generates organized item/character/config databases  
 - Speeds up balancing and iteration  
 
-[▶ Demo](https://youtu.be/YYYYYYYY)
+[▶ Demo](https://youtu.be/91tZ-68vI_M?t=66)
 
 ---
 
@@ -48,7 +48,7 @@ Experiments exploring:
 - Breakable objects  
 - Push/pull interactions  
 
-[▶ Watch](https://youtu.be/WWWWWWWW)
+[▶ Watch](https://youtu.be/91tZ-68vI_M?t=170)
 
 ---
 
