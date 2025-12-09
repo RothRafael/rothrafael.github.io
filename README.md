@@ -1,84 +1,91 @@
-Portfolio – Rafael Roth
+# 🎮 Rafael Roth – Game Development Portfolio
 
-Welcome to my game development portfolio. Here you’ll find projects and experiments focused on First Person Controller, CSV → ScriptableObjects pipelines, sound design, and physics systems.
+Welcome to my portfolio.  
+Here I showcase focused experiments and systems I’ve developed in Unity, mainly around:
 
-Projects
-1. First Person Controller (Unity)
+- **First Person Controller**
+- **CSV → ScriptableObjects Pipelines**
+- **Sound Design**
+- **Physics & Interactions**
 
-Technologies: Unity, C#, Input System
-Description: Complete first-person controller featuring:
+---
 
-Smooth physics-based movement
+## 🚶 First Person Controller (Unity)
 
-Jump buffering & coyote time
+![FPC](files/images/fpc.gif)
 
-Headbob and customizable controls
+**Tech:** Unity, C#, Input System  
+**Features:**
+- Smooth physics-based movement  
+- Jump buffering & coyote time  
+- Headbob system  
+- Smoothed and clamped camera rotation  
 
-Smoothed camera rotation with clamped angles
-Watch full video
+[▶ Watch video](https://youtu.be/XXXXXXXXX)
 
-2. CSV → ScriptableObjects Pipeline
+---
 
-Technologies: Unity, C#, Editor Tools
-Description: Automated Unity Editor tool that:
+## 📄 CSV → ScriptableObjects Pipeline
 
-Reads CSV files
+![CSV to SO](files/images/csv.gif)
 
-Converts rows into ScriptableObjects
+**Tech:** Unity, C#, Editor Tools  
+An automated workflow that:
+- Reads CSV files  
+- Converts each row into ScriptableObjects  
+- Generates organized item/character/config databases  
+- Speeds up balancing and iteration  
 
-Generates organized databases for items, characters or configs
+[▶ Demo](https://youtu.be/YYYYYYYY)
 
-Speeds up balancing and gameplay iteration
-Watch demo
+---
 
-3. Interactive Sound Design
+## 🔊 Interactive Sound Design
 
-Technologies: Unity, C#, AudioMixer
-Description: Audio system focused on game feel and immersion:
+![Sound](files/images/sound.gif)
 
-Dynamic sound layering
+**Tech:** Unity, C#, AudioMixer  
+**Systems included:**
+- Dynamic layered audio  
+- Footstep variations based on surface  
+- Pitch/volume randomization  
+- Environmental low-pass filtering  
 
-Footstep variations based on surface type
+[▶ Listen](https://youtu.be/ZZZZZZZZ)
 
-Pitch/volume randomization
+---
 
-Low-pass filters for depth and environmental effects
-Listen to demo
+## 🧪 Physics & Interaction Tests
 
-4. Physics & Interaction Tests
+![Physics](files/images/physics.gif)
 
-Technologies: Unity, C#, Rigidbody/Collider
-Description: A set of physics experiments exploring:
+**Tech:** Unity, C#, Rigidbody/Collider  
+Experiments exploring:
+- Forces & torque  
+- Breakable objects  
+- Push/pull interactions  
+- Stability, friction, material behavior  
 
-Forces, torque and advanced collisions
+[▶ Watch](https://youtu.be/WWWWWWWW)
 
-Breakable/destructible objects
+---
 
-Player interactions (push/pull)
+## 👤 About Me
 
-Stability, friction and material behavior
-Watch video
+Game developer in training, focused on:
+- Gameplay programming  
+- Editor tools  
+- Physics & sound systems  
+- Unity as my main engine  
 
-About Me
+Currently seeking a **Game Development internship**.
 
-I’m a game developer in training, focused on:
+---
 
-Gameplay Programming
+## 📬 Contact
 
-Internal tools (Editor Tools)
+- **GitHub:** https://github.com/RothRafael  
+- **LinkedIn:** your link  
+- **Email:** your email  
 
-Physics & interaction systems
-
-Sound design for games
-
-Unity as my main stack
-
-I’m currently looking for an internship in Game Development.
-
-Contact
-
-GitHub: https://github.com/RothRafael
-
-LinkedIn: your link
-
-Email: your email
+---
