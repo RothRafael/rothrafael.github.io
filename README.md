@@ -16,7 +16,6 @@ Here I showcase focused experiments and systems I’ve developed in Unity, mainl
 **Tech:** Unity, C#, Input System  
 **Features:**
 - Smooth physics-based movement  
-- Jump buffering & coyote time  
 - Headbob system  
 - Smoothed and clamped camera rotation  
 
