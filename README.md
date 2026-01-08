@@ -59,7 +59,7 @@ Game developer in training, focused on:
 - Physics & sound systems  
 - Unity as my main engine  
 
-Currently seeking a **Game Development internship**.
+Currently seeking a **Development internship**.
 
 ---
 
