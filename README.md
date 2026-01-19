@@ -1,4 +1,4 @@
-# 🎮 Rafael Roth – Game Development Portfolio
+# Rafael Roth – Game Development Portfolio
 
 Welcome to my portfolio.  
 Here I showcase focused experiments and systems I’ve developed in Unity, mainly around:
@@ -9,7 +9,7 @@ Here I showcase focused experiments and systems I’ve developed in Unity, mainl
 
 ---
 
-## 🚶 First Person Controller (Unity)
+## First Person Controller (Unity)
 
 ![FPC](files/images/FPS.gif)
 
@@ -23,7 +23,7 @@ Here I showcase focused experiments and systems I’ve developed in Unity, mainl
 
 ---
 
-## 📄 CSV → ScriptableObjects Pipeline
+## CSV → ScriptableObjects Pipeline
 
 ![CSV to SO](files/images/csv.gif)
 
@@ -38,7 +38,7 @@ An automated workflow that:
 
 ---
 
-## 🧪 Physics & Interaction Tests
+## Physics & Interaction Tests
 
 ![Physics](files/images/interaction.gif)
 
@@ -51,7 +51,7 @@ Experiments exploring:
 
 ---
 
-## 👤 About Me
+## About Me
 
 Game developer in training, focused on:
 - Gameplay programming  
@@ -63,7 +63,7 @@ Currently seeking a **Development internship**.
 
 ---
 
-## 📬 Contact
+## Contact
 
 - **GitHub:** https://github.com/RothRafael  
 - **Email:** rafaeltroth@gmail.com 
