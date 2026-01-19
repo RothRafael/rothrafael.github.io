@@ -1,71 +1,25 @@
 # Rafael Roth – Game Development Portfolio
 
-Welcome to my portfolio.  
-Here I showcase focused experiments and systems I’ve developed in Unity, mainly around:
-
-- **First Person Controller**
-- **CSV → ScriptableObjects Pipelines**
-- **Physics & Interactions**
-
----
-
-## First Person Controller (Unity)
-
-![FPC](files/images/FPS.gif)
-
-**Tech:** Unity, C#, Input System  
-**Features:**
-- Smooth physics-based movement  
-- Headbob system  
-- Smoothed and clamped camera rotation  
-
-[▶ Watch video](https://youtu.be/91tZ-68vI_M?t=5)
-
----
-
-## CSV → ScriptableObjects Pipeline
-
-![CSV to SO](files/images/csv.gif)
-
-**Tech:** Unity, C#, Editor Tools  
-An automated workflow that:
-- Reads CSV files  
-- Converts each row into ScriptableObjects  
-- Generates organized item/character/config databases  
-- Speeds up balancing and iteration  
-
-[▶ Demo](https://youtu.be/91tZ-68vI_M?t=66)
-
----
-
-## Physics & Interaction Tests
-
-![Physics](files/images/interaction.gif)
-
-**Tech:** Unity, C#, Rigidbody/Collider  
-Experiments exploring:
-- Breakable objects  
-- Push/pull interactions  
-
-[▶ Watch](https://youtu.be/91tZ-68vI_M?t=170)
+**Live Portfolio:**  
+https://rothrafael.github.io/
 
 ---
 
 ## About Me
 
-Game developer in training, focused on:
+I am a Game Developer in training with a strong focus on the technical side of game development. My main interests include building solid gameplay systems and creating tools that improve both development workflow and player experience.
+
+### Primary areas of focus:
 - Gameplay programming  
-- Editor tools  
-- Physics & sound systems  
+- Editor & development tools  
+- Physics and sound systems  
 - Unity as my main engine  
 
-Currently seeking a **Development internship**.
+I am currently seeking a **Game Development / Software Development Internship**.
 
 ---
 
 ## Contact
 
 - **GitHub:** https://github.com/RothRafael  
-- **Email:** rafaeltroth@gmail.com 
-
----
+- **Email:** rafaeltroth@gmail.com
