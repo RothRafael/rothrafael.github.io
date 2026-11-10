@@ -4,273 +4,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafael Roth | Game Developer</title>
-    <meta name="description" content="Game Development Portfolio of Rafael Roth. Unity, C#, and Physics Systems.">
+    <title>Rafael Roth | Gameplay programmer</title>
+    <meta name="description" content="Portfolio of Rafael Roth, a Computer Science student at PUCRS building gameplay systems and editor tools in Unity and C#.">
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="container">
-            <h1>Hello, i am Rafael</h1>
-            <p>Computer Science student eager to enter the game development industry, focusing on Unity best practices,
-                reusable systems, and design patterns.</p>
+    <!-- Icons (lucide) -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" /><path d="M9 18c-4.51 2-5-2-7-2" /></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></symbol>
+        <symbol id="i-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3" /></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol>
+    </svg>
 
-            <div class="social-links" style="display: flex; justify-content: center; gap: 1rem; margin-top: 2rem;">
-                <a href="https://github.com/RothRafael" target="_blank" class="social-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                    </svg>
-                    View GitHub
-                </a>
-                <a href="mailto:rafaeltroth@gmail.com" class="social-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    Contact Me!
-                </a>
-            </div>
-        </div>
+    <header class="container topbar">
+        <a href="#" class="wordmark">Rafael Roth</a>
+        <nav>
+            <a href="#work" class="hide-sm">Work</a>
+            <a href="#about" class="hide-sm">About</a>
+            <a href="https://github.com/RothRafael" target="_blank" rel="noopener">GitHub</a>
+        </nav>
     </header>
 
-    <!-- Projects Section -->
-    <main class="container">
-        <h2 class="section-title">Selected Works</h2>
+    <section class="container hero">
+        <h1 class="rise">Gameplay systems and Unity tools built to be extended</h1>
+        <p class="lede rise">I'm Rafael, a Computer Science student at PUCRS. I build prototypes in Unity and C#
+            around design patterns and reusable systems, and I'm looking for a game development internship.</p>
+        <div class="actions rise">
+            <a href="mailto:rafaeltroth@gmail.com" class="btn btn-primary">
+                <svg class="icon"><use href="#i-mail" /></svg>
+                Email me
+            </a>
+            <a href="https://github.com/RothRafael" target="_blank" rel="noopener" class="btn btn-secondary">
+                <svg class="icon"><use href="#i-github" /></svg>
+                GitHub
+            </a>
+        </div>
+    </section>
 
-        <div class="projects-grid">
+    <main id="work" class="container work">
+        <div class="section-head">
+            <h2>Selected work</h2>
+        </div>
 
-            <!-- Project 1: First Person Controller -->
-            <article class="project-card">
-                <img src="files/images/FPSCAM.gif" alt="First Person Controller Gameplay" class="card-image">
-                <div class="card-content">
-                    <h3 class="card-title">Modular and reusable First Person controller </h3>
-                    <div class="tech-stack">
-                        <span class="tech-pill">Unity</span>
-                        <span class="tech-pill">C#</span>
-                        <span class="tech-pill">New Input System</span>
-                    </div>
-                    <ul class="card-features">
-                        <li><b>Procedural Camera Physics:</b> Head bob and sway calculated in realtime with no baked animations.</li>
-                        <li><b>Event-Driven Architecture:</b> UI and Audio systems decoupled using C# actions.</li>
-                    </ul>
-                    <div style="display: flex; gap: 1rem; justify-content: space-between; align-items: center;">
-                        <a href="https://rothrafael.itch.io/first-person-controller-demo" target="_blank" class="card-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                            </svg>
-                            Play Demo!
-                        </a>
-                        <a href="https://github.com/RothRafael/unity-procedural-fps-controller" target="_blank" class="card-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                            </svg>
-                            View Source
-                        </a>
-                    </div>
-
+        <!-- Featured: First Person Controller -->
+        <article class="project featured">
+            <video class="project-media" src="files/media/FPSCAM.mp4" poster="files/media/FPSCAM-poster.jpg"
+                autoplay muted loop playsinline preload="metadata"
+                aria-label="First-person controller gameplay with procedural head bob and camera sway"></video>
+            <div class="project-body">
+                <p class="mono">Unity · C# · New Input System</p>
+                <h3>Modular first-person controller</h3>
+                <ul class="features">
+                    <li><strong>Procedural camera</strong> Head bob and sway calculated in real time, with no baked animations</li>
+                    <li><strong>Event-driven</strong> UI and audio are decoupled from the player through C# actions</li>
+                </ul>
+                <div class="inspector" aria-label="Main scripts">
+                    <div class="inspector-row"><span class="check"><svg viewBox="0 0 24 24"><use href="#i-check" /></svg></span>FirstPersonController.cs<span class="role">movement</span></div>
+                    <div class="inspector-row"><span class="check"><svg viewBox="0 0 24 24"><use href="#i-check" /></svg></span>GameEvents.cs<span class="role">events</span></div>
+                    <div class="inspector-row"><span class="check"><svg viewBox="0 0 24 24"><use href="#i-check" /></svg></span>PlayerAudioObserver.cs<span class="role">audio</span></div>
                 </div>
-            </article>
-
-            <!-- Project 3: Unity Boat -->
-            <article class="project-card">
-                <img src="files/images/underconstruction.jpeg" alt="Unity Boat Project" class="card-image">
-                <div class="card-content">
-                    <h3 class="card-title">Unity Boat Simulation</h3>
-                    <div class="tech-stack">
-                        <span class="tech-pill">Unity</span>
-                        <span class="tech-pill">C#</span>
-                        <span class="tech-pill">Physics</span>
-                    </div>
-                    <ul class="card-features">
-                        <li><b>Realistic Water Physics:</b> Implemented buoyancy and water drag simulation.</li>
-                        <li><b>Dynamic Wave System:</b> Procedural waves affecting boat movement.</li>
-                        <li><b>Player Controls:</b> Responsive boat controls for steering and speed.</li>
-                    </ul>
-                     <div style="display: flex; gap: 1rem; justify-content: space-between; align-items: center;">
-                        <a href="#" target="_blank" class="card-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                            </svg>
-                            Play Demo!
-                        </a>
-                        <a href="https://github.com/RothRafael/UnityBoat" target="_blank" class="card-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                            </svg>
-                            View Source
-                        </a>
-                    </div>
+                <div class="project-links">
+                    <a href="https://rothrafael.itch.io/first-person-controller-demo" target="_blank" rel="noopener" class="link play">
+                        <svg class="icon"><use href="#i-play" /></svg>
+                        Play demo
+                    </a>
+                    <a href="https://github.com/RothRafael/unity-procedural-fps-controller" target="_blank" rel="noopener" class="link">
+                        <svg class="icon"><use href="#i-github" /></svg>
+                        Source
+                    </a>
                 </div>
-            </article>
+            </div>
+        </article>
 
+        <div class="project-grid">
 
-            <!-- Project 2: CSV Pipeline -->
-            <article class="project-card">
-                <img src="files/images/csv.gif" alt="CSV to ScriptableObject Tool" class="card-image">
-                <div class="card-content">
-                    <h3 class="card-title">CSV → ScriptableObjects → GameObjects</h3>
-                    <div class="tech-stack">
-                        <span class="tech-pill">Unity</span>
-                        <span class="tech-pill">Editor Tools</span>
-                        <span class="tech-pill">Automation</span>
-                    </div>
-                    <ul class="card-features">
-                        <li>Using CSV file as a game database</li>
-                        <li>Generating GameObjects based on database number ids</li>
+            <!-- CSV Pipeline -->
+            <article class="project">
+                <video class="project-media" src="files/media/csv.mp4" poster="files/media/csv-poster.jpg"
+                    autoplay muted loop playsinline preload="metadata"
+                    aria-label="Unity editor generating GameObjects from a CSV file"></video>
+                <div class="project-body">
+                    <p class="mono">Unity · Editor tools · Automation</p>
+                    <h3>CSV → ScriptableObjects → GameObjects</h3>
+                    <ul class="features">
+                        <li>Uses a CSV file as the game's database</li>
+                        <li>Generates GameObjects from the database's numeric ids</li>
                     </ul>
-                    <div style="display: flex; gap: 1rem;">
-                        <a href="https://youtu.be/91tZ-68vI_M?t=66" target="_blank" class="card-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                            </svg>
-                            Watch Demo
+                    <div class="project-links">
+                        <a href="https://youtu.be/91tZ-68vI_M?t=66" target="_blank" rel="noopener" class="link play">
+                            <svg class="icon"><use href="#i-play" /></svg>
+                            Watch demo
                         </a>
-
                     </div>
                 </div>
             </article>
 
+            <!-- Unity Boat (in development) -->
+            <article class="project">
+                <div class="project-body">
+                    <p class="mono status">In development</p>
+                    <p class="mono">Unity · C# · Physics</p>
+                    <h3>Boat simulation</h3>
+                    <ul class="features">
+                        <li><strong>Water physics</strong> Buoyancy and water drag simulation</li>
+                        <li><strong>Wave system</strong> Procedural waves that move the boat</li>
+                        <li><strong>Controls</strong> Responsive steering and throttle</li>
+                    </ul>
+                </div>
+            </article>
 
-
-            <!-- Project 3: Physics Tests -->
-            <!-- <article class="project-card">
-                <img src="files/images/interaction.gif" alt="Physics Interactions" class="card-image">
-                <div class="card-content">
-                    <h3 class="card-title">Physics & Interactions</h3>
-                    <div class="tech-stack">
-                        <span class="tech-pill">Unity</span>
-                        <span class="tech-pill">Physics</span>
-                        <span class="tech-pill">Rigidbody</span>
-                    </div>
-                    <ul class="card-features">
+            <!-- Physics & Interactions (hidden for now)
+            <article class="project">
+                <img class="project-media" src="files/images/interaction.gif" alt="Physics interactions">
+                <div class="project-body">
+                    <p class="mono">Unity · Physics · Rigidbody</p>
+                    <h3>Physics and interactions</h3>
+                    <ul class="features">
                         <li>Breakable objects system</li>
-                        <li>Push/pull interaction mechanics</li>
+                        <li>Push and pull interaction mechanics</li>
                         <li>Complex collider experiments</li>
                     </ul>
-                    <div style="display: flex; gap: 1rem;">
-                        <a href="https://youtu.be/91tZ-68vI_M?t=170" target="_blank" class="card-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                            Watch Demo
+                    <div class="project-links">
+                        <a href="https://youtu.be/91tZ-68vI_M?t=170" target="_blank" rel="noopener" class="link play">
+                            <svg class="icon"><use href="#i-play" /></svg>
+                            Watch demo
                         </a>
-
                     </div>
                 </div>
-</article>
-
-            <!-- Project 4: Placeholder -->
-            <!-- <article class="project-card">
-                <img src="files/images/placeholder.png" alt="Upcoming Project Placeholder" class="card-image">
-                <div class="card-content">
-                    <h3 class="card-title">Project 4: Coming Soon</h3>
-                    <div class="tech-stack">
-                        <span class="tech-pill">Unity</span>
-                        <span class="tech-pill">C#</span>
-                        <span class="tech-pill">WIP</span>
-                    </div>
-                    <ul class="card-features">
-                        <li>New gameplay mechanics in development</li>
-                        <li>Custom shader implementations</li>
-                        <li>Advanced system architecture</li>
-                    </ul>
-                    <div style="display: flex; gap: 1rem;">
-                        <a href="#" target="_blank" class="card-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                            Watch Demo
-                        </a> -->
-
-        </div>
-        </div>
-        </article>
+            </article>
+            -->
 
         </div>
     </main>
 
-    <!-- About Section -->
-    <section class="about-section">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-content">
-                    <h3>About Me</h3>
-
-                    <p>
-                        I am a Computer Science student at PUCRS, my big interests are game development, arts and
-                        sports.
-                        In my free time, I study Unity, experiment with design patterns, and build small prototypes.
-                        My projects focus on gameplay systems that are easy to extend without changing existing code.
-                    </p>
-
-                    <p>
-                        Currently seeking a <strong>Development Internship</strong> to further improve my skills and
-                        contribute to shipping games.
-                    </p>
-
-                </div>
-                <div class="skills-content">
-                    <h3>Core Competencies</h3>
-                    <ul class="skills-list">
-                        <li>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Gameplay Programming
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Unity (C#)
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Editor Tools & Pipelines
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Programming Patterns
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Sound Implementation
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Git & Version Control
-                        </li>
-                    </ul>
-                </div>
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div>
+                <h2>About</h2>
+                <p>I'm a Computer Science student at PUCRS. My big interests are game development, arts and sports.
+                    In my free time I study Unity, experiment with design patterns and build small prototypes. My
+                    projects focus on gameplay systems that are easy to extend without changing existing code.</p>
+                <p>I'm currently looking for a <strong>development internship</strong> to keep improving and to
+                    help ship games.</p>
+            </div>
+            <div>
+                <h3>Core competencies</h3>
+                <ul class="skills">
+                    <li><svg class="icon"><use href="#i-check" /></svg>Gameplay programming</li>
+                    <li><svg class="icon"><use href="#i-check" /></svg>Unity (C#)</li>
+                    <li><svg class="icon"><use href="#i-check" /></svg>Editor tools and pipelines</li>
+                    <li><svg class="icon"><use href="#i-check" /></svg>Programming patterns</li>
+                    <li><svg class="icon"><use href="#i-check" /></svg>Sound implementation</li>
+                    <li><svg class="icon"><use href="#i-check" /></svg>Git and version control</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Rafael Roth. Vibe coded and real coded with love.</p>
+            <p>© 2026 Rafael Roth. Vibe coded and real coded with love</p>
+            <nav>
+                <a href="https://github.com/RothRafael" target="_blank" rel="noopener">GitHub</a>
+                <a href="mailto:rafaeltroth@gmail.com">Email</a>
+            </nav>
         </div>
     </footer>
 
+    <script>
+        // Respect reduced motion: stop the looping clips
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.querySelectorAll('video[autoplay]').forEach(v => { v.removeAttribute('autoplay'); v.pause(); v.controls = true; });
+        }
+    </script>
 </body>
 
 </html>
